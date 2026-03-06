@@ -1,0 +1,12 @@
+# 敏感信息
+*.token
+*.key
+.env
+secrets/
+
+# 临时文件
+*.log
+.tmp/
+
+# 本地配置
+local/
