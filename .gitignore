@@ -17,3 +17,5 @@ sandbox/
 *.token
 # GitHub Pages 项目（独立仓库）
 blank-gh-page/
+# Tavily API Key
+TAVILY_API_KEY
