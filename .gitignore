@@ -10,3 +10,9 @@ secrets/
 
 # 本地配置
 local/
+
+# 临时脚本和文件（非skill的实验性内容）
+sandbox/
+*.token
+# GitHub Pages 项目（独立仓库）
+blank-gh-page/
