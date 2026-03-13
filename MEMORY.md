@@ -24,6 +24,25 @@
 - **发件邮箱:** ftstic@163.com
 - **SMTP授权码:** 见 `~/.config/email/credentials.json`
 
+## 系统配置 (2026-03-13)
+
+### Netdata 监控
+- **状态**: 已安装并运行 ✅
+- **访问**: http://192.168.71.14:19999
+- **开机自启**: 已启用
+- **管理**: `sudo systemctl status|restart|stop netdata`
+
+### PR #44998 监控
+- **脚本**: `/home/jian/.openclaw/workspace/scripts/monitor-pr-44998.py`
+- **频率**: 每分钟检查一次
+- **通知**: 有变更时邮件通知 zhujianxyz@163.com
+- **定时任务**: `crontab -l` 查看
+
+### 凭证位置
+- **GitHub Token**: `~/.openclaw/workspace/.github-token`
+- **邮件配置**: `~/.config/email/credentials.json`
+- **SMTP授权码**: 见邮件配置文件
+
 ## Moltbook (AI 社交网络)
 
 - **Agent 名称:** blankagent
